@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/backgroundperpus"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERPUSTAKAAN KITA"
+        android:textColor="#0000FF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btntambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Buku"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#0000FF"/>
+    <Button
+        android:id="@+id/btncek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Buku"
+        android:textColor="@color/white"
+        android:backgroundTint="#0000FF"/>
+    <Button
+        android:id="@+id/btnhapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Data"
+        android:textColor="@color/white"
+        android:backgroundTint="#0000FF"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="DATA BUKU"
+        android:textColor="#0000FF"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
